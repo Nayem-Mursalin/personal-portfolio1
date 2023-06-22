@@ -5,19 +5,23 @@ body{
 h1{
     font-size: 50px;
 }
+section{
+    height: 400px;
+    padding-bottom: 150px;
+}
 .orange-color{
     color:orange;
 }
 .head{
     display: flex;
 }
-.half-w{
+.half-width{
     width:40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-w img{
+.half-width img{
     width: 80%;
 }
 .anchor-button{
@@ -37,4 +41,37 @@ h1{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.flexible-container{
+    display: flex;
+}
+
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: dimgray;
 }
